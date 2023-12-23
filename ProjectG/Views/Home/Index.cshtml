@@ -1,0 +1,741 @@
+﻿<link href="~/css/styles.css" rel="stylesheet" />
+<link href="~/css/site.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+@using Microsoft.AspNetCore.Identity
+@using ProjectG.Areas.Identity.Data
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+<div class="ban">
+
+    <div class="container">
+    </div>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <img src="/images/logos.png" width="125px" />
+            </div>
+
+            <div class="navbar">
+
+                <nav>
+                    <ul id="MenuItems">
+
+
+                        <li>
+                            <a class="nav-link active" href="#">
+                                Home
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li><a class="nav-link" href="#about">About</a> </li>
+                        <li> <a class="nav-link" href="#schedule">Schedule</a> </li>
+                        <li> <a class="nav-link" href="#abou">Prices</a> </li>
+
+
+
+                        <li> <a href=""> //</a> </li>
+
+                        <li>
+
+                            <a href ="/Identity/Account/register">Sing Up</a>
+                        </li>
+
+                     
+                    </ul>
+
+                </nav>
+                @if (SignInManager.IsSignedIn(User))
+                {
+
+
+
+
+
+
+                    
+                        <a id="profile-btn" class="btn btn-outline-success" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+                
+                        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                            <button id="logout" type="submit" class="btn btn-outline-danger my-2 my-sm-0">Logout</button>
+                        </form>
+                    
+
+
+                }
+
+            </div>
+            <img src="/images/menu1.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </header>
+
+
+</div>
+
+
+
+
+<div class="Co">
+    <h1>
+        IT'S <span>
+            ALL ABOUT WHAT YOU
+            CAN ACHIEVE
+        </span>
+    </h1>
+    <p>Emppwer yourself to make the changes you need to make</p>
+
+    <a href="#Featured" class="btn">Explore Now &#8594;</a>
+</div>
+<div class="col">
+    <!--- <img src="images/">-->
+</div>
+
+        
+
+
+
+
+<!----------About------->
+
+<div class="offer" id="about">
+    <div class="small-container">
+        <h2 class="title">About Us</h2>
+        <div class="row">
+            <div class="col1">
+                <img src="/image/category-1.webp" class="offer-img">
+            </div>
+
+            <div class="col1">
+                <div class="about-text">
+                   
+                    <p >
+                        Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium sollicitudin, nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate
+                        cursus a amet.
+                    </p>
+                    <p class="second-para">
+                        Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida
+                        quam semper libero sit amet. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
+                        rhoncus, gravida quam semper libero sit amet.
+                    </p>
+                    <a href="#" class="primary-btn">Read More</a>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="testimonial" id="">
+    <div class="small-container">
+        <h2 class="title">Choose <em>Program</em></h2>
+
+
+        <div class="section-heading">
+            <img src="/image/line-dec.png" alt="waves">
+            <p>
+                No matter your fitness level or goal, GYM has a program to meet your needs. Join us on the path
+                to a healthier you!
+            </p>
+
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="features-items">
+                    <li class="feature-item">
+                        <div class="left-icon">
+                            <img src="/image/features-first-icon.png" alt="First One">
+                        </div>
+                        <div class="right-content">
+                            <h4>Beginner's Fitness</h4>
+                            <p>
+                                Are you new to the gym scene? Our beginner's fitness program is designed to ease
+                                you into a regular workout routine. Our trainers will create a customized plan
+                                to help you build strength, stamina, and confidence.
+                            </p>
+                            <a href="#" class="text-button">Discover More</a>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="left-icon">
+                            <img src="/image/features-first-icon.png" alt="second one">
+                        </div>
+                        <div class="right-content">
+                            <h4>Weight Loss Challenge</h4>
+                            <p>
+                                Embark on a transformative journey with our weight loss challenge. Combine
+                                effective workouts with nutrition guidance to achieve sustainable weight loss
+                                and improve your overall well-being.
+                            </p>
+                            <a href="#" class="text-button">Discover More</a>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="left-icon">
+                            <img src="/image/features-first-icon.png" alt="third gym training">
+                        </div>
+                        <div class="right-content">
+                            <h4>Basic Muscle Course</h4>
+                            <p>
+                                For those looking to gain muscle mass and strength, our muscle-building program
+                                focuses on targeted exercises and nutrition plans tailored to your goals.
+                            </p>
+                            <a href="#" class="text-button">Discover More</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="features-items">
+                    <li class="feature-item">
+                        <div class="left-icon">
+                            <img src="/image/features-first-icon.png" alt="fourth muscle">
+                        </div>
+                        <div class="right-content">
+                            <h4>Yoga Training</h4>
+                            <p>Stretch, strengthen, and find serenity through various yoga practices.</p>
+                            <a href="#" class="text-button">Discover More</a>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="left-icon">
+                            <img src="/image/features-first-icon.png" alt="training fifth">
+                        </div>
+                        <div class="right-content">
+                            <h4>Yoga Training</h4>
+                            <p>Stretch, strengthen, and find serenity through various yoga practices.</p>
+                            <a href="#" class="text-button">Discover More</a>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="left-icon">
+                            <img src="/image/features-first-icon.png" alt="gym training">
+                        </div>
+                        <div class="right-content">
+                            <h4>Membership Plans</h4>
+                            <p>
+                                Ready to take the first step towards a healthier you? Join Gym today and
+                                experience the difference. Your fitness journey starts here!
+                            </p>
+                            <a href="#" class="text-button">Discover More</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- SCHEDULE -->
+<section class="schedule section" id="schedule">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 col-12 text-center">
+                <h6 data-aos="fade-up">Ｏｕｒ Ｗｅｅｋｌｙ ＧＹＭ Ｓｃｈｅｄｕｌｅｓ ☯</h6>
+
+                <h2 class="text-white" data-aos="fade-up" data-aos-delay="200">Workout Timetable</h2>
+            </div>
+
+            <div class="col-lg-12 py-5 col-md-12 col-12">
+                <table class="table table-bordered table-responsive schedule-table" data-aos="fade-up"
+                       data-aos-delay="300">
+
+                    <thead class="thead-light">
+                    <th><i class="fa fa-calendar"></i></th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><small>7:00 am</small></td>
+                            <td>
+                                <strong>Cardio</strong>
+                                <span>7:00 am - 9:00 am</span>
+                            </td>
+                            <td>
+                                <strong>Power Fitness</strong>
+                                <span>7:00 am - 9:00 am</span>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <strong>Yoga Section</strong>
+                                <span>7:00 am - 9:00 am</span>
+                            </td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td><small>9:00 am</small></td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                <strong>Boxing</strong>
+                                <span>8:00 am - 9:00 am</span>
+                            </td>
+                            <td>
+                                <strong>Muscle Training</strong>
+                                <span>8:00 am - 9:00 am</span>
+                            </td>
+                            <td></td>
+                            <td>
+                                <strong>Cardio</strong>
+                                <span>8:00 am - 9:00 am</span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><small>11:00 am</small></td>
+                            <td></td>
+                            <td>
+                                <strong>Boxing</strong>
+                                <span>11:00 am - 2:00 pm</span>
+                            </td>
+                            <td>
+                                <strong>Muscle Training</strong>
+                                <span>11:30 am - 3:30 pm</span>
+                            </td>
+                            <td></td>
+                            <td>
+                                <strong>Body work</strong>
+                                <span>11:50 am - 5:20 pm</span>
+                            </td>
+                            <td></td>
+                        </tr>
+
+                        <tr>
+                            <td><small>2:00 pm</small></td>
+                            <td>
+                                <strong>Boxing</strong>
+                                <span>2:00 pm - 4:00 pm</span>
+                            </td>
+                            <td>
+                                <strong>Power lifting</strong>
+                                <span>3:00 pm - 6:00 pm</span>
+                            </td>
+                            <td></td>
+                            <td>
+                                <strong>Cardio</strong>
+                                <span>6:00 pm - 9:00 pm</span>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                                <strong>Advanced Training</strong>
+                                <span>5:00 pm - 7:00 pm</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------ testimonial ---->
+
+
+
+<div class="Trainers">
+    <div class="small-container">
+        <h2 class="title">Expert <em>Trainers</em></h2>
+
+
+        <div class="section-heading">
+            <img src="/image/line-dec.png" alt="waves">
+            <p>
+                Training Studio is free CSS template for gyms and fitness centers. You are allowed to use this
+                layout for your business website.
+            </p>
+
+        </div>
+        <div class="row">
+            <div class="col1">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img src="/image/first-trainer.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                        <span>Strength Trainer</span>
+                        <h4>Milan Bishankhe</h4>
+                        <p>
+                            Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free
+                            vegan church-key pour-over seitan flannel.
+                        </p>
+                        <ul class="socials">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img src="/image/testimonial-4.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                        <span>Muscle Trainer</span>
+                        <h4>Saroj Shrestha</h4>
+                        <p>
+                            Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free
+                            vegan church-key pour-over seitan flannel.
+                        </p>
+                        <ul class="socials">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img src="/image/first-trainer.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                        <span>Power Trainer</span>
+                        <h4>Basanta Shrestha</h4>
+                        <p>
+                            Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free
+                            vegan church-key pour-over seitan flannel.
+                        </p>
+                        <ul class="socials">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------ @@@@@@@@@@@@ ---->
+
+
+
+<div class="Services">
+    <div class="small-container">
+        <h2 class="title">SERVICES & <em>FACILITIES</em></h2>
+
+
+       
+        <div class="row">
+            <div class="col1">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img src="/image/1.jpeg" alt="">
+                    </div>
+                    <div class="down-content">
+                        <span class="S">STEAM AND SAUNA</span>
+                       
+                        <p>
+                            We believe that a proper Steam and Sauna is an absolute gym essential. With sanitization always in check, we recommend steam and sauna for a proper recovery after you push your limits in our gymnasium.
+                        </p>
+                        <ul class="socials">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img src="/image/first-trainer5.jpg" alt="">
+                    </div>
+                    <div class="down-content">
+                        <span class="S">NUTRITIONIST</span>
+                        
+                        <p>
+                            It is an undeniable fact that a healthy, fit body is 70% of what you eat and 30% of how you workout. At Gold’s gym, we’ve got you covered. Our trainers are well knowledged about nutrition and we have a Nutritional Advisor at our disposal as well.
+                        </p>
+                        <ul class="socials">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+         
+                <div class="col1">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="/image/8.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                        <span class="S">LOCKER ROOMS</span>
+
+                            <p>
+                                To make sure your valuables are safe or just to avoid carrying your basic needfuls everyday, we have number lock lockers available at our facilities.
+                            </p>
+                            <ul class="socials">
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="row">
+           
+
+                    <div class="col1">
+                        <div class="trainer-item">
+                            <div class="image-thumb">
+                                <img src="/image/3.webp" alt="">
+                            </div>
+                            <div class="down-content">
+                                <span class="S">
+                                    GROUP FITNESS
+                                </span>
+                                <p>
+                                    Working in a group is a fun and great way to stay fit. It helps in confidence, good for your social health, helps you gain support and motivation in your fitness journey. At Gold’s Gym Nepal we have a separate,well equipped hall for group fitness with we educated group instructors to help you with your goals.
+                                </p>
+                                <ul class="socials">
+                                </ul>
+                            </div>
+                        </div>
+            </div>
+            <div class="col1">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img src="/image/6.webp" alt="">
+                    </div>
+                    <div class="down-content">
+                            <span class="S">CONSULTATION</span>
+                       
+                        <p>
+                            One of the biggest roadblock we face in the initial stages of the fitness journey is, “ where to begin? ”. You can schedule a consultation program with our experienced fitness trainers to help you with how to start your fitness journey and how to work towards achieving your goals.
+                        </p>
+                        <ul class="socials">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col1">
+                <div class="trainer-item">
+                    <div class="image-thumb">
+                        <img src="/image/7.webp" alt="">
+                    </div>
+                    <div class="down-content">
+                            <span class="S">PERSONAL TRAINERS & FLOOR TRAINERS</span>
+                        
+                        <p>
+                            At Gold’s Gym Nepal, a trainer is always available throughout the opening hours to help you guide you and help you achieve your goals. To further accelerate the process, we have experienced personal trainers to intricately guide you towards becoming a better version of yourself.
+                        </p>
+                        <ul class="socials">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+               
+                    </div>
+                    <div class="col1">
+                        <div class="trainer-item">
+                            <div class="image-thumb">
+                                <img src="/image/third-trainer.jpg" alt="">
+                            </div>
+                            <div class="down-content">
+                                <span class="S">STRENGTH TRAINING ZONE</span>
+
+                                <p>
+                                    Our strength training zone is a well thought out area to help you get those gains. Again, we are filled with top of the line machines from Matrix fitness. We strongly believe that good machines help you stay injury free. Our free weight section has sufficient weights for you to push yourself to the limit.
+                                </p>
+                                <ul class="socials">
+                                </ul>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----Membership------->
+<div class="Membership" id="abou">
+    <div class="small-container">
+        <h2 class="title">Membership</h2>
+        <div class="row">
+            <div class="col1">
+                <i class="fa fa-quote-left"></i>
+                <div class="ps-item">
+                    <h3>Class drop-in</h3>
+                    <div class="pi-price">
+                        <h2>$ 39.0</h2>
+                        <span>SINGLE CLASS</span>
+                    </div>
+                    <ul>
+                        <li>Free riding</li>
+                        <li>Unlimited equipments</li>
+                        <li>Personal trainer</li>
+                        <li>Weight losing classes</li>
+                        <li>Month to mouth</li>
+                        <li>No time restriction</li>
+                    </ul>
+
+                    <a href="Membership" class="primary-btn pricing-btn">Enroll now</a>
+                    <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
+                </div>
+            </div>
+            <div class="col1">
+                <i class="fa fa-quote-left"></i>
+                <div class="ps-item">
+                    <h3>12 Month unlimited</h3>
+                    <div class="pi-price">
+                        <h2>$ 99.0</h2>
+                        <span>SINGLE CLASS</span>
+                    </div>
+                    <ul>
+                        <li>Free riding</li>
+                        <li>Unlimited equipments</li>
+                        <li>Personal trainer</li>
+                        <li>Weight losing classes</li>
+                        <li>Month to mouth</li>
+                        <li>No time restriction</li>
+                    </ul>
+                    <a href="#" class="primary-btn pricing-btn">Enroll now</a>
+                    <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
+                </div>
+            </div>
+            <div class="col1">
+                <i class="fa fa-quote-left"></i>
+                <div class="ps-item">
+                    <h3>6 Month unlimited</h3>
+                    <div class="pi-price">
+                        <h2>$ 59.0</h2>
+                        <span>SINGLE CLASS</span>
+                    </div>
+                    <ul>
+                        <li>Free riding</li>
+                        <li>Unlimited equipments</li>
+                        <li>Personal trainer</li>
+                        <li>Weight losing classes</li>
+                        <li>Month to mouth</li>
+                        <li>No time restriction</li>
+                    </ul>
+                    <a href="#" class="primary-btn pricing-btn">Enroll now</a>
+                    <a href="#" class="thumb-icon"><i class="fa fa-picture-o"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<Section id="Footer">
+    <footer class="site-footer">
+        <div class="site-container">
+            <div class="footer-inner">
+                <div class="footer-info">
+                    <div class="footer-info__left">
+                    </div>
+                    <div class="footer-info__right">
+                        <h5>Get In Touch</h5>
+                        <p class="footer-phone">Phone: +958734902847</p>
+                        <p>
+                            Email :
+                            shresthasrj1@gmail.com<!-----<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="58123730363d181d20393528343d763b3735">[email&#160;protected]</a></p>--->
+
+                            <div class="footer-col2">
+
+                                <div class="footer-col1">
+                                    <h3>GYM</h3>
+                                    <p>Emppwer yourself to make the changes you need to make.</p>
+                                    <ul class="socials">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+                <div class="footer-contact-form">
+                    <h5>Contact Form</h5>
+                    <form class="contact-form">
+                        <div class="contact-form__input">
+                            <input type="text" name="name" placeholder="Name">
+                            </br>
+                            <input type="email" name="email" placeholder="Email">
+
+                            <input type="text" class="form-control" name="subject" id="subject" rows="2"
+                                   placeholder="Subject" required>
+                        </div>
+
+
+                        <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                  required></textarea>
+
+
+
+
+                        <input type="submit" name="submit" value="Submit" class="submit-button">
+                    </form>
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="site-container footer-bottom-inner">
+            </div>
+        </div>
+    </footer>
+</Section>
+<!-- Footer end -->
+<!----------js for toggle menu------------->
+
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else {
+            MenuItems.style.maxHeight = "0px";
+        }
+
+    }
+
+
+
+</script>

@@ -1,0 +1,565 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ProjectG.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProjectG.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\css\\Expert Trainers",
+      "PackagePath": "staticwebassets\\css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\css\\bg-masthead.jpg",
+      "PackagePath": "staticwebassets\\css\\bg-masthead.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\css\\export.jpg",
+      "PackagePath": "staticwebassets\\css\\export.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\css\\mem.css",
+      "PackagePath": "staticwebassets\\css\\mem.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\1.jpeg",
+      "PackagePath": "staticwebassets\\image\\1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\2.jpeg",
+      "PackagePath": "staticwebassets\\image\\2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\3.webp",
+      "PackagePath": "staticwebassets\\image\\3.webp"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\4.webp",
+      "PackagePath": "staticwebassets\\image\\4.webp"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\51.webp",
+      "PackagePath": "staticwebassets\\image\\51.webp"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\6.webp",
+      "PackagePath": "staticwebassets\\image\\6.webp"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\7.webp",
+      "PackagePath": "staticwebassets\\image\\7.webp"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\8.jpg",
+      "PackagePath": "staticwebassets\\image\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\E-commerce-master.zip",
+      "PackagePath": "staticwebassets\\image\\E-commerce-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\bg-masthead.jpg",
+      "PackagePath": "staticwebassets\\image\\bg-masthead.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\bg.jpg",
+      "PackagePath": "staticwebassets\\image\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\category-1.webp",
+      "PackagePath": "staticwebassets\\image\\category-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\close.png",
+      "PackagePath": "staticwebassets\\image\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\counters-bg.jpg",
+      "PackagePath": "staticwebassets\\image\\counters-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\features-first-icon.png",
+      "PackagePath": "staticwebassets\\image\\features-first-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\first-trainer.jpg",
+      "PackagePath": "staticwebassets\\image\\first-trainer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\first-trainer1.jpg",
+      "PackagePath": "staticwebassets\\image\\first-trainer1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\first-trainer2.jpg",
+      "PackagePath": "staticwebassets\\image\\first-trainer2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\first-trainer4.jpg",
+      "PackagePath": "staticwebassets\\image\\first-trainer4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\first-trainer5.jpg",
+      "PackagePath": "staticwebassets\\image\\first-trainer5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\first-trainer6.jpg",
+      "PackagePath": "staticwebassets\\image\\first-trainer6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\first-trainer7.jpg",
+      "PackagePath": "staticwebassets\\image\\first-trainer7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\img1.jpg",
+      "PackagePath": "staticwebassets\\image\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\line-dec.png",
+      "PackagePath": "staticwebassets\\image\\line-dec.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\menu.png",
+      "PackagePath": "staticwebassets\\image\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\overlay-bg.jpg",
+      "PackagePath": "staticwebassets\\image\\overlay-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\overlayy.jpg",
+      "PackagePath": "staticwebassets\\image\\overlayy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\portfolio-details-1.jpg",
+      "PackagePath": "staticwebassets\\image\\portfolio-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\portfolio-details-2.jpg",
+      "PackagePath": "staticwebassets\\image\\portfolio-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\portfolio-details-3.jpg",
+      "PackagePath": "staticwebassets\\image\\portfolio-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\post-1.jpg",
+      "PackagePath": "staticwebassets\\image\\post-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\post-2.jpg",
+      "PackagePath": "staticwebassets\\image\\post-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\post-3.jpg",
+      "PackagePath": "staticwebassets\\image\\post-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\image\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\third-trainer.jpg",
+      "PackagePath": "staticwebassets\\image\\third-trainer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work-1.png",
+      "PackagePath": "staticwebassets\\image\\work-1.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work-2.jpg",
+      "PackagePath": "staticwebassets\\image\\work-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work-3.jpg",
+      "PackagePath": "staticwebassets\\image\\work-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work-4.jpg",
+      "PackagePath": "staticwebassets\\image\\work-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work-5.jpg",
+      "PackagePath": "staticwebassets\\image\\work-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work-6.jpg",
+      "PackagePath": "staticwebassets\\image\\work-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work1.jpg",
+      "PackagePath": "staticwebassets\\image\\work1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work2.jpg",
+      "PackagePath": "staticwebassets\\image\\work2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work3.jpg",
+      "PackagePath": "staticwebassets\\image\\work3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work4.jpg",
+      "PackagePath": "staticwebassets\\image\\work4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work5.jpg",
+      "PackagePath": "staticwebassets\\image\\work5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\image\\work6.jpg",
+      "PackagePath": "staticwebassets\\image\\work6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\A.jpg",
+      "PackagePath": "staticwebassets\\images\\A.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\BODY.jpg",
+      "PackagePath": "staticwebassets\\images\\BODY.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\GYMM.png",
+      "PackagePath": "staticwebassets\\images\\GYMM.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\IMG.png",
+      "PackagePath": "staticwebassets\\images\\IMG.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\IMG.webp",
+      "PackagePath": "staticwebassets\\images\\IMG.webp"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\app-store.png",
+      "PackagePath": "staticwebassets\\images\\app-store.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\bg-masthead.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-masthead.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\bg-masthead.png",
+      "PackagePath": "staticwebassets\\images\\bg-masthead.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\category-2.jpg",
+      "PackagePath": "staticwebassets\\images\\category-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\category-3.jpg",
+      "PackagePath": "staticwebassets\\images\\category-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\counters-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\counters-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\equipment.jpg",
+      "PackagePath": "staticwebassets\\images\\equipment.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\i.png",
+      "PackagePath": "staticwebassets\\images\\i.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\img-credit.txt",
+      "PackagePath": "staticwebassets\\images\\img-credit.txt"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\logo-white.png",
+      "PackagePath": "staticwebassets\\images\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\logos.png",
+      "PackagePath": "staticwebassets\\images\\logos.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\menu.png",
+      "PackagePath": "staticwebassets\\images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\menu1.png",
+      "PackagePath": "staticwebassets\\images\\menu1.png"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\sled+push.jpg",
+      "PackagePath": "staticwebassets\\images\\sled+push.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\images\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\jss\\main.js",
+      "PackagePath": "staticwebassets\\jss\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hamme\\OneDrive\\Desktop\\ProjectG\\ProjectG\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ProjectG.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ProjectG.props",
+      "PackagePath": "build\\ProjectG.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectG.props",
+      "PackagePath": "buildMultiTargeting\\ProjectG.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ProjectG.props",
+      "PackagePath": "buildTransitive\\ProjectG.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
